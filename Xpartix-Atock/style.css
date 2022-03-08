@@ -1,0 +1,106 @@
+/**
+ * /* Fonts
+ *         font-family: 'Arvo',
+ *         serif;
+ *         font-family: 'Lato',
+ *         sans-serif;
+ *         font-family: 'Open Sans',
+ *         sans-serif;
+ *         font-family: 'Roboto',
+ *         sans-serif;
+ *         font-family: 'Ubuntu',
+ *         sans-serif;
+ * 
+ *         <link rel="stylesheet"href="./normalize.css">
+ * 		<link rel="stylesheet"href="./style.css">
+ *         <link rel="preconnect"href="https://fonts.googleapis.com">
+ *         <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin>
+ *         <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Open+Sans&family=Roboto&family=Ubuntu&display=swap"rel="stylesheet">
+ *b
+ * @format
+ */
+
+:root {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* TOPLIST INIT */
+
+.toplist__nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(221, 195, 79);
+}
+.toplist__menu {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-areas: 'inicio lorem page-inicio about end';
+    text-align: center;
+}
+.toplist__lists {
+    font-size: 15px;
+    display: grid;
+    place-content: center;
+    padding: 5px;
+}
+.toplist__lists:hover {
+    background-color: rgb(59, 13, 94);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+    color: gold;
+}
+
+.toplist__lists:first-child {
+    grid-area: inicio;
+}
+.toplist__lists:nth-child(2) {
+    grid-area: lorem;
+}
+.toplist__lists:nth-child(3) {
+    grid-area: page-inicio;
+}
+.toplist__lists:nth-child(4) {
+    grid-area: about;
+}
+.toplist__lists:nth-child(5) {
+    grid-area: end;
+}
+.toplist__links {
+    text-decoration: none;
+    color: black;
+    padding: 100px 50px;
+}
+.toplist__links:hover {
+    transition-duration: 0.25s;
+    color: rgb(199, 220, 13);
+}
+
+.toplist__img {
+    height: 100vh;
+    background-image: url(./multimedia/working2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* TOPLIST END */
+
+/* MAIN CONTENT INIT */
+
+/* MAIN CONTENT END */
+
+/* GENERAL INIT */
+
+ul {
+    list-style-type: none;
+}
+
+/* GENERAL END */
