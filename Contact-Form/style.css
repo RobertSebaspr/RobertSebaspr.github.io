@@ -1,0 +1,70 @@
+/**
+ * /* Fonts
+ *         font-family: 'Arvo',
+ *         serif;
+ *         font-family: 'Lato',
+ *         sans-serif;
+ *         font-family: 'Open Sans',
+ *         sans-serif;
+ *         font-family: 'Roboto',
+ *         sans-serif;
+ *         font-family: 'Ubuntu',
+ *         sans-serif;
+ * 
+ *         <link rel="stylesheet"href="./normalize.css">
+ * 		<link rel="stylesheet"href="./style.css">
+ *         <link rel="preconnect"href="https://fonts.googleapis.com">
+ *         <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin>
+ *         <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Lato&family=Open+Sans&family=Roboto&family=Ubuntu&display=swap"rel="stylesheet">
+ *
+ * @format
+ */
+
+* {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    background-image: linear-gradient(45deg, #fad0c4 0%, #ffd1ff 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.form {
+    background-color: #57096e;
+    width: 90%;
+    max-width: 40rem;
+    border-radius: 1.5rem;
+    padding: 3.5rem 4.5rem;
+}
+.form__container {
+    width: 100%;
+    display: grid;
+    gap: 1.6rem;
+    grid-auto-columns: 100%;
+}
+.form__title {
+    text-align: center;
+    font-size: 3.5rem;
+    color: rgb(189, 215, 238);
+    margin: 0.75rem;
+}
+.form__input {
+    font-size: 1.85rem;
+    padding: 1.5rem 12.1rem 2.8rem 1.5rem;
+    outline: none;
+    border: none;
+    border: 2px solid rgb(251, 203, 140);
+    border-radius: 9px;
+}
+.form__input--message {
+    resize: none;
+    padding: 1.5rem 10.5rem 8.4rem 1.5rem;
+}
+.form__submit {
+    margin: 15px 0px 0px;
+}
