@@ -44,14 +44,14 @@ body {
 .form__container {
     width: 100%;
     display: grid;
-    gap: 1.6rem;
+    gap: 1.8rem;
     grid-auto-columns: 100%;
 }
 .form__title {
     text-align: center;
     font-size: 3.5rem;
     color: rgb(189, 215, 238);
-    margin: 0.75rem;
+    margin: 1.5rem 0.75rem;
 }
 .form__input {
     font-size: 1.85rem;
@@ -67,4 +67,11 @@ body {
 }
 .form__submit {
     margin: 15px 0px 0px;
+	padding: 2.5rem 16.70rem;
+	background-color: rgb(18, 190, 190);
+	border-radius: 0.8rem;
+	color: white;
+	border: none;
+	font-size: 3rem;
+	cursor: pointer;
 }
